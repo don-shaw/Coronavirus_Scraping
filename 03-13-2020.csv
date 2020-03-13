@@ -1,0 +1,284 @@
+State,Country,County Name,Full County Name,Cases
+Diamond Princess (repatriated),USA,2020-03-02,"2020-03-02, Diamond Princess (repatriated)",170000
+Washington,USA,  King,"King, Washington",270
+Washington,USA, Snohomish,"Snohomish, Washington",108
+Washington,USA, Pierce,"Pierce, Washington",17
+Washington,USA, Kittitas,"Kittitas, Washington",3
+Washington,USA, Island,"Island, Washington",3
+Washington,USA, Kitsap,"Kitsap, Washington",2
+Washington,USA, Skagit,"Skagit, Washington",2
+Washington,USA, Grant,"Grant, Washington",1
+Washington,USA, Jefferson,"Jefferson, Washington",1
+Washington,USA, Clark,"Clark, Washington",1
+Washington,USA, Whatcom,"Whatcom, Washington",1
+Washington,USA, Thurston,"Thurston, Washington",1
+Washington,USA, Grays Harbor,"Grays Harbor, Washington",1
+Washington,USA, unknown,"unknown, Washington",36
+New York,USA, Westchester,"Westchester, New York",158
+New York,USA, NYC,"NYC, New York",154
+New York,USA, Nassau,"Nassau, New York",41
+New York,USA, Suffolk,"Suffolk, New York",28
+New York,USA, Rockland,"Rockland, New York",7
+New York,USA, Ulster,"Ulster, New York",4
+New York,USA, Saratoga,"Saratoga, New York",3
+New York,USA, Albany,"Albany, New York",4
+New York,USA, Monroe,"Monroe, New York",1
+New York,USA, Orange,"Orange, New York",1
+New York,USA, Delaware,"Delaware, New York",1
+New York,USA, Dutchess,"Dutchess, New York",1
+New York,USA, Herkimer,"Herkimer, New York",1
+California,USA,  Santa Clara,"Santa Clara, California",79
+California,USA, Los Angeles,"Los Angeles, California",32
+California,USA, San Mateo,"San Mateo, California",20
+California,USA, San Francisco,"San Francisco, California",24
+California,USA, Sacramento,"Sacramento, California",17
+California,USA, Contra Costa,"Contra Costa, California",25
+California,USA, Placer,"Placer, California",4
+California,USA, Riverside,"Riverside, California",8
+California,USA, Alameda,"Alameda, California",7
+California,USA, Santa Cruz,"Santa Cruz, California",7
+California,USA, San Diego,"San Diego, California",7
+California,USA, Orange,"Orange, California",6
+California,USA, Solano,"Solano, California",6
+California,USA, Sonoma,"Sonoma, California",3
+California,USA, Marin,"Marin, California",3
+California,USA, San Joaquin,"San Joaquin, California",2
+California,USA, San Benito,"San Benito, California",2
+California,USA, Ventura,"Ventura, California",2
+California,USA, Fresno,"Fresno, California",2
+California,USA, Calaveras,"Calaveras, California",2
+California,USA, Stanislaus,"Stanislaus, California",2
+California,USA, Imperial,"Imperial, California",2
+California,USA, Humboldt,"Humboldt, California",1
+California,USA, Yolo,"Yolo, California",1
+California,USA, Madera,"Madera, California",1
+California,USA, Shasta,"Shasta, California",1
+California,USA, Tulare,"Tulare, California",1
+Massachusetts,USA,  Middlesex,"Middlesex, Massachusetts",49
+Massachusetts,USA, Norfolk,"Norfolk, Massachusetts",24
+Massachusetts,USA, Suffolk,"Suffolk, Massachusetts",22
+Massachusetts,USA, Berkshire,"Berkshire, Massachusetts",9
+Massachusetts,USA, Essex,"Essex, Massachusetts",2
+Massachusetts,USA, Worcester,"Worcester, Massachusetts",1
+Massachusetts,USA, unknown,"unknown, Massachusetts",1
+Colorado,USA,  Eagle,"Eagle, Colorado",11
+Colorado,USA, Pitkin,"Pitkin, Colorado",10
+Colorado,USA, Denver,"Denver, Colorado",10
+Colorado,USA, Jefferson,"Jefferson, Colorado",4
+Colorado,USA, Douglas,"Douglas, Colorado",3
+Colorado,USA, Arapahoe,"Arapahoe, Colorado",3
+Colorado,USA, Gunnison,"Gunnison, Colorado",3
+Colorado,USA, Adams,"Adams, Colorado",2
+Colorado,USA, Summit,"Summit, Colorado",1
+Colorado,USA, El Paso,"El Paso, Colorado",1
+Colorado,USA, Larimer,"Larimer, Colorado",1
+Colorado,USA, Boulder,"Boulder, Colorado",1
+Colorado,USA, unknown,"unknown, Colorado",22
+Florida,USA,  Broward,"Broward, Florida",12
+Florida,USA, Lee,"Lee, Florida",4
+Florida,USA, Hillsborough,"Hillsborough, Florida",3
+Florida,USA, Volusia,"Volusia, Florida",3
+Florida,USA, Collier,"Collier, Florida",3
+Florida,USA, Manatee,"Manatee, Florida",2
+Florida,USA, Alachua,"Alachua, Florida",2
+Florida,USA,Pinellas,"Pinellas, Florida",2
+Florida,USA, Sarasota,"Sarasota, Florida",2
+Florida,USA, Palm Beach,"Palm Beach, Florida",2
+Florida,USA, Santa Rosa,"Santa Rosa, Florida",1
+Florida,USA, Charlotte,"Charlotte, Florida",1
+Florida,USA, Okaloosa,"Okaloosa, Florida",1
+Florida,USA, Nassau,"Nassau, Florida",1
+Florida,USA, Pasco,"Pasco, Florida",1
+Florida,USA, Miami-Dade,"Miami-Dade, Florida",1
+Florida,USA, St. Johns,"St. Johns, Florida",1
+Florida,USA, Seminole,"Seminole, Florida",1
+Florida,USA, Duval,"Duval, Florida",1
+Florida,USA, Clay,"Clay, Florida",1
+Florida,USA, unknown,"unknown, Florida",5
+New Jersey,USA,  Bergen,"Bergen, New Jersey",13
+New Jersey,USA, Monmouth,"Monmouth, New Jersey",5
+New Jersey,USA, Burlington,"Burlington, New Jersey",2
+New Jersey,USA, Middlesex,"Middlesex, New Jersey",4
+New Jersey,USA, Camden,"Camden, New Jersey",1
+New Jersey,USA, Hudson,"Hudson, New Jersey",3
+New Jersey,USA, Passaic,"Passaic, New Jersey",1
+New Jersey,USA, Union,"Union, New Jersey",1
+New Jersey,USA, Essex,"Essex, New Jersey",1
+New Jersey,USA, Morris,"Morris, New Jersey",1
+New Jersey,USA, Somerset,"Somerset, New Jersey",1
+New Jersey,USA, unknown,"unknown, New Jersey",17
+Louisiana,USA,  Orleans,"Orleans, Louisiana",21
+Louisiana,USA, Jefferson,"Jefferson, Louisiana",3
+Louisiana,USA, St. Tammany,"St. Tammany, Louisiana",3
+Louisiana,USA, Caddo,"Caddo, Louisiana",1
+Louisiana,USA, Iberia,"Iberia, Louisiana",1
+Louisiana,USA, Lafourche,"Lafourche, Louisiana",1
+Louisiana,USA, St. Bernard,"St. Bernard, Louisiana",1
+Louisiana,USA, St. Charles,"St. Charles, Louisiana",1
+Louisiana,USA, Terrebonne,"Terrebonne, Louisiana",1
+Louisiana,USA, unknown,"unknown, Louisiana",11
+Georgia,USA,  Cobb,"Cobb, Georgia",8
+Georgia,USA, Fulton,"Fulton, Georgia",8
+Georgia,USA, Dekalb,"Dekalb, Georgia",5
+Georgia,USA, Bartow,"Bartow, Georgia",4
+Georgia,USA, Floyd,"Floyd, Georgia",3
+Georgia,USA, Fayette,"Fayette, Georgia",3
+Georgia,USA, Gwinnett,"Gwinnett, Georgia",2
+Georgia,USA, Gordon,"Gordon, Georgia",2
+Georgia,USA, Polk,"Polk, Georgia",1
+Georgia,USA, Cherokee,"Cherokee, Georgia",1
+Georgia,USA, Charlton,"Charlton, Georgia",1
+Georgia,USA, Lowndes,"Lowndes, Georgia",1
+Georgia,USA, Lee,"Lee, Georgia",1
+Georgia,USA, Camden,"Camden, Georgia",1
+Georgia,USA, Coweta,"Coweta, Georgia",1
+Illinois,USA,  Cook,"Cook, Illinois",27
+Illinois,USA, Kane,"Kane, Illinois",2
+Illinois,USA, McHenry,"McHenry, Illinois",2
+Illinois,USA, Lake,"Lake, Illinois",1
+Texas,USA,  Dallas,"Dallas, Texas",8
+Texas,USA, Fort Bend,"Fort Bend, Texas",6
+Texas,USA, Harris,"Harris, Texas",6
+Texas,USA, Houston,"Houston, Texas",3
+Texas,USA, Collin,"Collin, Texas",4
+Texas,USA, Montgomery,"Montgomery, Texas",3
+Texas,USA, Travis,"Travis, Texas",2
+Texas,USA, Gregg,"Gregg, Texas",1
+Texas,USA, Tarrant,"Tarrant, Texas",1
+Oregon,USA,  Washington,"Washington, Oregon",10
+Oregon,USA, Linn,"Linn, Oregon",8
+Oregon,USA, Jackson,"Jackson, Oregon",2
+Oregon,USA, Umatilla,"Umatilla, Oregon",2
+Oregon,USA, Marion,"Marion, Oregon",2
+Oregon,USA, Klamath,"Klamath, Oregon",1
+Oregon,USA, Douglas,"Douglas, Oregon",1
+Oregon,USA, Multnomah,"Multnomah, Oregon",1
+Oregon,USA, Polk,"Polk, Oregon",1
+Oregon,USA, Deschutes,"Deschutes, Oregon",1
+Oregon,USA, Clackamas,"Clackamas, Oregon",1
+Pennsylvania,USA,  Montgomery,"Montgomery, Pennsylvania",13
+Pennsylvania,USA, Bucks,"Bucks, Pennsylvania",2
+Pennsylvania,USA, Monroe,"Monroe, Pennsylvania",2
+Pennsylvania,USA, Delaware,"Delaware, Pennsylvania",1
+Pennsylvania,USA, Wayne,"Wayne, Pennsylvania",1
+Pennsylvania,USA, Philadelphia,"Philadelphia, Pennsylvania",1
+Pennsylvania,USA, Northampton,"Northampton, Pennsylvania",1
+Pennsylvania,USA, Pike,"Pike, Pennsylvania",1
+Tennessee,USA,  Williamson,"Williamson, Tennessee",8
+Tennessee,USA, Davidson,"Davidson, Tennessee",6
+Tennessee,USA, Shelby,"Shelby, Tennessee",2
+Tennessee,USA, Sullivan,"Sullivan, Tennessee",1
+Tennessee,USA, Knox,"Knox, Tennessee",1
+Virginia,USA,  Fairfax,"Fairfax, Virginia",5
+Virginia,USA, Arlington,"Arlington, Virginia",2
+Virginia,USA, Virginia Beach,"Virginia Beach, Virginia",2
+Virginia,USA, Loudoun,"Loudoun, Virginia",2
+Virginia,USA, James City,"James City, Virginia",2
+Virginia,USA, Spotsylvania,"Spotsylvania, Virginia",1
+Virginia,USA, Hanover,"Hanover, Virginia",1
+Virginia,USA, Prince Edward,"Prince Edward, Virginia",1
+Virginia,USA, Alexandria,"Alexandria, Virginia",1
+Virginia,USA, Harrisonburg,"Harrisonburg, Virginia",1
+Virginia,USA, unknown,"unknown, Virginia",12
+North Carolina,USA,  Wake,"Wake, North Carolina",8
+North Carolina,USA, Forsyth,"Forsyth, North Carolina",2
+North Carolina,USA, Mecklenburg,"Mecklenburg, North Carolina",2
+North Carolina,USA, Chatham,"Chatham, North Carolina",1
+North Carolina,USA, Durham,"Durham, North Carolina",1
+North Carolina,USA, Johnston,"Johnston, North Carolina",1
+North Carolina,USA, Cabarrus,"Cabarrus, North Carolina",1
+North Carolina,USA, unknown,"unknown, North Carolina",1
+Iowa,USA,  Johnson,"Johnson, Iowa",14
+Iowa,USA, Pottawattamie,"Pottawattamie, Iowa",1
+Indiana,USA,  Johnson,"Johnson, Indiana",3
+Indiana,USA, Hendricks,"Hendricks, Indiana",2
+Indiana,USA, Marion,"Marion, Indiana",2
+Indiana,USA, Nobel,"Nobel, Indiana",1
+Indiana,USA, Adams,"Adams, Indiana",1
+Indiana,USA, Boone,"Boone, Indiana",1
+Indiana,USA, Howard,"Howard, Indiana",1
+Indiana,USA, St. Joseph,"St. Joseph, Indiana",1
+Indiana,USA, Hancock,"Hancock, Indiana",1
+Maryland,USA,  Montgomery,"Montgomery, Maryland",6
+Maryland,USA, Prince George,"Prince George, Maryland",4
+Maryland,USA, Harford,"Harford, Maryland",1
+Maryland,USA, Baltimore,"Baltimore, Maryland",1
+South Carolina,USA,  Kershaw,"Kershaw, South Carolina",4
+South Carolina,USA, Camden,"Camden, South Carolina",4
+South Carolina,USA, Charleston,"Charleston, South Carolina",1
+South Carolina,USA, Spartanburg,"Spartanburg, South Carolina",1
+South Carolina,USA, Lancaster,"Lancaster, South Carolina",2
+Michigan,USA,  Oakland,"Oakland, Michigan",3
+Michigan,USA, Kent,"Kent, Michigan",3
+Michigan,USA, Washtenaw,"Washtenaw, Michigan",2
+Michigan,USA, Wayne,"Wayne, Michigan",1
+Michigan,USA, St. Clair,"St. Clair, Michigan",1
+Michigan,USA, Ingham,"Ingham, Michigan",1
+Michigan,USA, Montcalm,"Montcalm, Michigan",1
+Nevada,USA,  Clark,"Clark, Nevada",8
+Nevada,USA, Washoe,"Washoe, Nevada",2
+Nevada,USA, Ormsby,"Ormsby, Nevada",1
+Kentucky,USA,  Harrison,"Harrison, Kentucky",5
+Kentucky,USA, Fayette,"Fayette, Kentucky",3
+Kentucky,USA, Jefferson,"Jefferson, Kentucky",2
+Kentucky,USA, unknown,"unknown, Kentucky",1
+Nebraska,USA,  Douglas,"Douglas, Nebraska",9
+Nebraska,USA, Knox,"Knox, Nebraska",1
+Nebraska,USA, Cass,"Cass, Nebraska",1
+District of Columbia,USA,2020-03-12,District of Columbia,10
+Arizona,USA,  Pima,"Pima, Arizona",1
+Arizona,USA, Maricopa,"Maricopa, Arizona",3
+Arizona,USA, Pinal,"Pinal, Arizona",5
+Minnesota,USA,  Ramsey,"Ramsey, Minnesota",3
+Minnesota,USA, Carver,"Carver, Minnesota",1
+Minnesota,USA, Anoka,"Anoka, Minnesota",1
+Minnesota,USA, Olmsted,"Olmsted, Minnesota",1
+Minnesota,USA, Dakota,"Dakota, Minnesota",1
+Minnesota,USA, Stearns,"Stearns, Minnesota",1
+Minnesota,USA, Hennepin,"Hennepin, Minnesota",1
+Wisconsin,USA,  Dane,"Dane, Wisconsin",4
+Wisconsin,USA, Fond du Lac,"Fond du Lac, Wisconsin",2
+Wisconsin,USA, Pierce,"Pierce, Wisconsin",1
+Wisconsin,USA, Waukesha,"Waukesha, Wisconsin",1
+South Dakota,USA,  Minnehaha,"Minnehaha, South Dakota",3
+South Dakota,USA, Pennington,"Pennington, South Dakota",1
+South Dakota,USA, Beadle,"Beadle, South Dakota",1
+South Dakota,USA, Charles Mix,"Charles Mix, South Dakota",1
+South Dakota,USA, Davidson,"Davidson, South Dakota",1
+South Dakota,USA, Bon Homme,"Bon Homme, South Dakota",1
+New Hampshire,USA,   Grafton,"Grafton, New Hampshire",3
+New Hampshire,USA, Rockingham,"Rockingham, New Hampshire",3
+Arkansas,USA,  Jefferson,"Jefferson, Arkansas",1
+Arkansas,USA, Pulaski,"Pulaski, Arkansas",1
+Arkansas,USA, unknown,"unknown, Arkansas",4
+New Mexico,USA,  Socorro,"Socorro, New Mexico",2
+New Mexico,USA, Bernalillo,"Bernalillo, New Mexico",2
+New Mexico,USA, Santa Fe,"Santa Fe, New Mexico",2
+Rhode Island,USA,  Providence,"Providence, Rhode Island",3
+Rhode Island,USA, unknown,"unknown, Rhode Island",2
+Utah,USA,  Davis,"Davis, Utah",1
+Utah,USA, Weber,"Weber, Utah",1
+Utah,USA, Summit,"Summit, Utah",1
+Utah,USA, unknown,"unknown, Utah",2
+Kansas,USA,  Johnson,"Johnson, Kansas",4
+Kansas,USA, Wyandotte,"Wyandotte, Kansas",1
+Connecticut,USA,  Litchfield,"Litchfield, Connecticut",1
+Connecticut,USA, Fairfield,"Fairfield, Connecticut",4
+Ohio,USA,  Cuyahoga,"Cuyahoga, Ohio",3
+Ohio,USA, Stark,"Stark, Ohio",1
+Ohio,USA, Warren,"Warren, Ohio",1
+Delaware,USA,  New Castle,"New Castle, Delaware",4
+Oklahoma,USA,  Tulsa,"Tulsa, Oklahoma",2
+Oklahoma,USA, Jackson,"Jackson, Oklahoma",1
+Maine,USA,  Androscoggin,"Androscoggin, Maine",1
+Maine,USA, unknown,"unknown, Maine",1
+Hawaii,USA,2020-03-09,Hawaii,2
+Missouri,USA,  St. Louis,"St. Louis, Missouri",1
+Missouri,USA, Greene,"Greene, Missouri",1
+Vermont,USA,  Bennington,"Bennington, Vermont",1
+Vermont,USA, Chittenden,"Chittenden, Vermont",1
+Mississippi,USA,  Forrest,"Forrest, Mississippi",1
+Wyoming,USA,  Sheridan,"Sheridan, Wyoming",1
+North Dakota,USA,  Ward,"Ward, North Dakota",1
+Montana,USA,  unknown,"unknown, Montana",1
+Alaska,USA,  unknown,"unknown, Alaska",1
