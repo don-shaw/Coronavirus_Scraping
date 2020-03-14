@@ -1,0 +1,27 @@
+2020-03-14 10:01:04,903 - INFO - ***** Start time:  Saturday March 14 10:01:04 AM 2020
+
+2020-03-14 10:01:04,903 - INFO - URL:  http://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-14-2020.csv
+2020-03-14 10:01:04,903 - INFO - Output File:  C:/Data/coronavirus/03-14-2020.csv
+2020-03-14 10:01:04,903 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-14 10:01:04,956 - INFO - Successfully connected to http://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-14-2020.csv
+2020-03-14 10:01:04,959 - INFO - Wrote 327 records to C:/Data/coronavirus/03-14-2020.csv
+2020-03-14 10:01:05,122 - INFO - Truncating C:/Data/coronavirus/Coronavirus.gdb/Coronavirus_Cases
+2020-03-14 10:01:07,056 - INFO - Appending records
+2020-03-14 10:01:07,974 - INFO - Compacting fgdb
+2020-03-14 10:01:08,193 - INFO - ***** Completed time:  Saturday March 14 10:01:08 AM 2020
+2020-03-14 10:01:39,880 - INFO - ***** Start time:  Saturday March 14 10:01:39 AM 2020
+2020-03-14 10:01:39,880 - INFO - URL:  http://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-14-2020.csv
+2020-03-14 10:01:39,880 - INFO - Output File:  C:/Data/coronavirus/03-14-2020.csv
+2020-03-14 10:01:39,881 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-14 10:01:39,947 - INFO - Successfully connected to http://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-14-2020.csv
+2020-03-14 10:01:39,952 - INFO - Wrote 327 records to C:/Data/coronavirus/03-14-2020.csv
+2020-03-14 10:01:40,130 - INFO - Truncating C:/Data/coronavirus/Coronavirus.gdb/Coronavirus_Cases
+2020-03-14 10:01:42,415 - INFO - Appending records
+2020-03-14 10:01:43,418 - INFO - Compacting fgdb
+2020-03-14 10:01:43,633 - INFO - ***** Completed time:  Saturday March 14 10:01:43 AM 2020
+
+2020-03-14 10:16:20,218 - INFO - ***** Start time:  Saturday March 14 10:16:20 AM 2020
+2020-03-14 10:16:20,218 - INFO - URL:  http://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-14-2020.csv
+2020-03-14 10:16:20,218 - INFO - Output File:  C:/Data/coronavirus/03-14-2020.csv
+2020-03-14 10:16:20,218 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-14 10:16:20,283 - ERROR - The latest file is not available
