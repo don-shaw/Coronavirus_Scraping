@@ -5,3 +5,5 @@
 3. Join the FGDB Feature Class County_pts to the Coronavirus_Case table.
 4. Publish to ArcGIS Server
  
+1. Unzip the file geodatabase
+2. Update the paths in __main__
