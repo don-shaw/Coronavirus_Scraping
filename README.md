@@ -1,11 +1,17 @@
 # Coronavirus County Scraper
 
-Before using this code, please make sure that you have ran the following command in your conda environment:
+Make sure you have the following non-standard python dependencies:
 
-<b>pip install python-certifi-win32 </b>
+<ul>
+  <li><b>python-certifi-win32 </b></li>
+  <li><b>arcpy</b></li>
+  </ul>
+
+You will need to install the UVA certifcate into your machine's certificate store. The requests module will need to verify certicates in your machine's certificate store. 
 
 For more information, check out this stack overflow thread: https://stackoverflow.com/questions/50422136/python-requests-with-wincertstore/57053415#57053415
 
+<h2> Follow these steps </h2>
 1. Install the certificate for https://nssac.bii.virginia.edu into your machine's certificate store
 2. Unzip the Coronavirus.gdb to a location of your choice (Data Folder).
 3. Update the paths in County_Coronavirus_Scraper.py (__main__ function)
