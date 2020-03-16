@@ -2,7 +2,7 @@
 
 Before using this code, please make sure that you have ran the following command in your conda environment:
 
-pip install python-certifi-win32 
+<b>pip install python-certifi-win32 </b>
 
 For more information, check out this stack overflow thread: https://stackoverflow.com/questions/50422136/python-requests-with-wincertstore/57053415#57053415
 
