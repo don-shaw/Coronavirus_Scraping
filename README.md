@@ -14,6 +14,6 @@ For more information, check out this stack overflow thread: https://stackoverflo
 5. Publish to ArcGIS Server
 
 The counties feature class has been modified to account for the Guam, US Virgin Islands, Puerto Rico, and Hawaii counties.
-There is a single GUam, USVI and Puerto Rico point, since individual counties are not being reported on those islands.
+There is a single Guam, USVI and Puerto Rico point, since individual counties are not being reported on those islands.
 
 I have moved Honolulu county to the island of Oahu for aesthetics.
