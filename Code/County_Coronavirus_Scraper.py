@@ -3,9 +3,8 @@ Author: Don Shaw
 Company: Esri
 Division: Professional Services / Washington, D.C. Regional Services
 Contact: d.shaw@esri.com
-Purpose: Scrape University of Virginia Coronavirus (COVID-19) Data and import it to a FGDB
+Purpose: Scrape University of Virginia / Harvard Public Line List Coronavirus (COVID-19) Data and import it to a FGDB
 """
-
 
 import requests
 import datetime
@@ -23,7 +22,7 @@ def process_today(url, data_file, fieldnames):
         coronavirus_file = csv.DictWriter(csvfile, fieldnames=fieldnames)
         coronavirus_file.writeheader()
         # Make the request
-        r = requests.get(url, verify=False)
+        r = requests.get(url, verify=True)
         if r.status_code == 200:
             logging.info('Successfully connected to {0}'.format(url))
             # Iterate over the lines and decode them to utf-8
@@ -62,16 +61,9 @@ def process_today(url, data_file, fieldnames):
                         if full_county_name.startswith(' '):
                             full_county_name = full_county_name.lstrip(' ')
                         # print('{0} has {1} cases'.format(Full_County_Name, Cases))
-                        if state in ['District of Columbia']:
+                        if state in ['District of Columbia', 'USVI', 'Puerto Rico', 'Guam']:
                             cases = confirmed
-                            full_county_name = 'District of Columbia, District of Columbia'
-                        if state in ['Vermon', 'Vermont']:
-                            state = 'Vermont'
-                        if state in ['USVI']:
-                            county_name = 'USVI'
-                            full_county_name = 'USVI'
-                        if state in ['Guam']:
-                            full_county_name = 'Guam, Guam'
+                            full_county_name = state + ', ' + state
                         if full_county_name in ['Kauai County, Hawaii', 'Maui County, Hawaii',
                                                 'Kalawao County, Hawaii', 'Hawaii County, Hawaii']:
                             full_county_name = full_county_name.replace(' County,', ',')
@@ -85,7 +77,6 @@ def process_today(url, data_file, fieldnames):
                                                        'Full County Name': str(full_county_name),
                                                        'Cases': int(case), 'Update Time': str(update_time),
                                                        'Source': str(source)})
-
                             count += 1
             logging.info("Wrote {0} records to {1}".format(count, output_file))
         else:
@@ -127,7 +118,7 @@ if __name__ == '__main__':
     today = today.strftime("%m-%d-%Y")
 
     # Variables
-    start_url_format = 'http://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-'
+    start_url_format = 'https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-'
     today_url = start_url_format + today + '.csv'
     output_file = 'C:/Data/coronavirus/' + today + '.csv'
     fields = ['State', 'Country', 'County Name', 'Full County Name', 'Cases', 'Update Time', 'Source']
