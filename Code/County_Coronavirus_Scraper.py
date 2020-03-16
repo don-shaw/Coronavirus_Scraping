@@ -42,7 +42,6 @@ def process_today(url, data_file, fieldnames):
                     else:
                         bad_list = ['CNTY', 'CNTY:', 'CTY', 'CNTY', 'CNTY: ', 'Parish:']
                         for i in bad_list:
-                                 Last_Updated = Last_Updated.replace(i, 'CTY: ')
                             if i in last_updated:
                                 last_updated = last_updated.replace(i, 'CTY: ')
                     cnty_idx = last_updated.find(': ')
