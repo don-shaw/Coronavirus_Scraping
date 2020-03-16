@@ -29,25 +29,24 @@ def process_today(url, data_file, fieldnames):
             # Iterate over the lines and decode them to utf-8
             lines = (line.decode('utf-8') for line in r.iter_lines())
             for record in lines:
-                State = record.split(',')[0]
-                Country = record.split(',')[1]
-                Last_Updated = record.split(',')[2]
-                Confirmed = record.split(',')[3]
-                Deaths = record.split(',')[4]
-                Recovered = record.split(',')[5]
-                Source = url
-                if Country == 'USA':
-                    update_time = Last_Updated[:19]
-                    idx = Last_Updated.find('*')
+                state = record.split(',')[0]
+                country = record.split(',')[1]
+                last_updated = record.split(',')[2]
+                confirmed = record.split(',')[3]
+                source = url
+                if country == 'USA':
+                    update_time = last_updated[:19]
+                    idx = last_updated.find('*')
                     if idx == 0 or idx == -1:
                         pass
                     else:
                         bad_list = ['CNTY', 'CNTY:', 'CTY', 'CNTY', 'CNTY: ', 'Parish:']
                         for i in bad_list:
-                            if i in Last_Updated:
                                  Last_Updated = Last_Updated.replace(i, 'CTY: ')
-                    cnty_idx = Last_Updated.find(': ')
-                    state_county_list = Last_Updated[cnty_idx + 1:]
+                            if i in last_updated:
+                                last_updated = last_updated.replace(i, 'CTY: ')
+                    cnty_idx = last_updated.find(': ')
+                    state_county_list = last_updated[cnty_idx + 1:]
                     county_split = state_county_list.split(';')
 
                     for x in county_split:
@@ -56,40 +55,41 @@ def process_today(url, data_file, fieldnames):
                             c = x.rsplit(' ', 1)
                         else:
                             c = x.rsplit(' ', 2)
-                        County_Name = c[0]
-                        Cases = c[1]
-                        if ':' in County_Name:
-                            County_Name = County_Name.replace(':', '')
-                        Full_County_Name = County_Name + ', ' + State
-                        if Full_County_Name.startswith(' '):
-                            Full_County_Name = Full_County_Name.lstrip(' ')
-                        #print('{0} has {1} cases'.format(Full_County_Name, Cases))
-                        if State in ['District of Columbia']:
-                            Cases = Confirmed
-                            Full_County_Name = 'District of Columbia, District of Columbia'
-                        if State in ['Vermon', 'Vermont']:
-                            State = 'Vermont'
-                        if State in ['USVI']:
-                            County_Name = 'USVI'
-                            Full_County_Name = 'USVI'
-                        if Full_County_Name in ['Kauai County, Hawaii', 'Maui County, Hawaii', 'Kalawao County, Hawaii', 'Hawaii County, Hawaii']:
-                            Full_County_Name = Full_County_Name.replace(' County,', ',')
-                        if ':' in Cases:
-                            Cases = Cases.replace(':', '')
-                        if Cases.startswith(('1', '2', '3', '4', '5', '6', '7', '8', '9')):
-                            Cases = Cases
-                           # print(Cases)
-                            coronavirus_file.writerow({'State': str(State), 'Country': str(Country),
-                                                       'County Name': str(County_Name), 'Full County Name': str(Full_County_Name),
-                                                       'Cases': int(Cases), 'Update Time': str(update_time),
-                                                       'Source': str(Source)})
+                        county_name = c[0]
+                        cases = c[1]
+                        if ':' in county_name:
+                            county_name = county_name.replace(':', '')
+                        full_county_name = county_name + ', ' + state
+                        if full_county_name.startswith(' '):
+                            full_county_name = full_county_name.lstrip(' ')
+                        # print('{0} has {1} cases'.format(Full_County_Name, Cases))
+                        if state in ['District of Columbia']:
+                            cases = confirmed
+                            full_county_name = 'District of Columbia, District of Columbia'
+                        if state in ['Vermon', 'Vermont']:
+                            state = 'Vermont'
+                        if state in ['USVI']:
+                            county_name = 'USVI'
+                            full_county_name = 'USVI'
+                        if full_county_name in ['Kauai County, Hawaii', 'Maui County, Hawaii',
+                                                'Kalawao County, Hawaii', 'Hawaii County, Hawaii']:
+                            full_county_name = full_county_name.replace(' County,', ',')
+                        if ':' in cases:
+                            cases = cases   .replace(':', '')
+                        if cases.startswith(('1', '2', '3', '4', '5', '6', '7', '8', '9')):
+                            case = cases
+                            # print(Cases)
+                            coronavirus_file.writerow({'State': str(state), 'Country': str(country),
+                                                       'County Name': str(county_name),
+                                                       'Full County Name': str(full_county_name),
+                                                       'Cases': int(case), 'Update Time': str(update_time),
+                                                       'Source': str(source)})
 
                             count += 1
             logging.info("Wrote {0} records to {1}".format(count, output_file))
         else:
             logging.error("The latest file is not available")
             sys.exit('File not available')
-
 
 
 def update_fgdb(fgdb, data_file, table):
