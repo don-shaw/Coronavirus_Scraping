@@ -1,9 +1,8 @@
 # Coronavirus County Scraper
 
-
 Before using this code, please make sure that you have ran the following command in your conda environment:
 
-"pip install python-certifi-win32" 
+pip install python-certifi-win32 
 
 For more information, check out this stack overflow thread: https://stackoverflow.com/questions/50422136/python-requests-with-wincertstore/57053415#57053415
 
@@ -15,5 +14,8 @@ For more information, check out this stack overflow thread: https://stackoverflo
 
 The counties feature class has been modified to account for the Guam, US Virgin Islands, Puerto Rico, and Hawaii counties.
 There is a single Guam, USVI and Puerto Rico point, since individual counties are not being reported on those islands.
+
+The counties feature class has been modified to account for the US Virgin Islands, Puerto Rico, Guam, and Hawaii counties.
+There are single Guam, USVI and Puerto Rico points, since individual counties are not being reported on those islands.
 
 I have moved Honolulu county to the island of Oahu for aesthetics.
