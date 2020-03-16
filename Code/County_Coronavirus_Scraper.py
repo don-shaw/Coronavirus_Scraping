@@ -1,10 +1,10 @@
-'''
+"""
 Author: Don Shaw
 Company: Esri
 Division: Professional Services / Washington, D.C. Regional Services
 Contact: d.shaw@esri.com
 Purpose: Scrape University of Virginia Coronavirus (COVID-19) Data and import it to a FGDB
-'''
+"""
 
 
 import requests
@@ -23,7 +23,7 @@ def process_today(url, data_file, fieldnames):
         coronavirus_file = csv.DictWriter(csvfile, fieldnames=fieldnames)
         coronavirus_file.writeheader()
         # Make the request
-        r = requests.get(url)
+        r = requests.get(url, verify=False)
         if r.status_code == 200:
             logging.info('Successfully connected to {0}'.format(url))
             # Iterate over the lines and decode them to utf-8
@@ -70,6 +70,8 @@ def process_today(url, data_file, fieldnames):
                         if state in ['USVI']:
                             county_name = 'USVI'
                             full_county_name = 'USVI'
+                        if state in ['Guam']:
+                            full_county_name = 'Guam, Guam'
                         if full_county_name in ['Kauai County, Hawaii', 'Maui County, Hawaii',
                                                 'Kalawao County, Hawaii', 'Hawaii County, Hawaii']:
                             full_county_name = full_county_name.replace(' County,', ',')
