@@ -13,11 +13,11 @@ For more information, check out this stack overflow thread: https://stackoverflo
 
 <h2> Follow these steps </h2>
 <ol>
-  <li>1. Install the certificate for https://nssac.bii.virginia.edu into your machine's certificate store</li>
-<li>2. Unzip the Coronavirus.gdb to a location of your choice (Data Folder).</li>
-<li>3. Update the paths in County_Coronavirus_Scraper.py (__main__ function)</li>
-<li>4. Join the FGDB Feature Class County_pts to the Coronavirus_Case table.</li>
-<li>5. Publish to ArcGIS Server </li>
+  <li> Install the certificate for https://nssac.bii.virginia.edu into your machine's certificate store</li>
+<li> Unzip the Coronavirus.gdb to a location of your choice (Data Folder).</li>
+<li> Update the paths in County_Coronavirus_Scraper.py (__main__ function)</li>
+<li> Join the FGDB Feature Class County_pts to the Coronavirus_Case table.</li>
+<li> Publish to ArcGIS Server </li>
   
   </ol>
   
