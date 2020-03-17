@@ -1,5 +1,7 @@
 # Coronavirus County Scraper
 <img src="https://github.com/don-shaw/Coronavirus_Scraping/blob/master/Images/Mar172020.PNG" width="100%" height="50%">
+
+<h2> Follow these steps </h2>
 Make sure you have the following non-standard python dependencies:
 
 <ul>
@@ -11,7 +13,7 @@ You will need to install the UVA certifcate into your machine's certificate stor
 
 For more information, check out this stack overflow thread: https://stackoverflow.com/questions/50422136/python-requests-with-wincertstore/57053415#57053415
 
-<h2> Follow these steps </h2>
+
 <ol>
   <li> Install the certificate for https://nssac.bii.virginia.edu into your machine's certificate store</li>
 <li> Unzip the Coronavirus.gdb to a location of your choice (Data Folder).</li>
