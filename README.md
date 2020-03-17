@@ -23,7 +23,17 @@ For more information, check out this stack overflow thread: https://stackoverflo
 The counties feature class has been modified to account for the Guam, US Virgin Islands, Puerto Rico, and Hawaii counties.
 There is a single Guam, USVI and Puerto Rico point, since individual counties are not being reported on those islands.
 
-The counties feature class has been modified to account for the US Virgin Islands, Puerto Rico, Guam, and Hawaii counties.
-There are single Guam, USVI and Puerto Rico points, since individual counties are not being reported on those islands.
-
 I have moved Honolulu county to the island of Oahu for aesthetics.
+
+<h2> Sources</h2>
+<h3> Authoratative Sources </h3>
+<ul>
+  <li><strong>State Map with Resources:</strong> https://napsg.maps.arcgis.com/apps/Media/index.html?appid=d627f416ce49405ca1fe4fe6ce520fed&center=-100.0438,35.7352&level=4 </li>
+  <li><strong>Verified Counties: </strong> https://ps-dbs.maps.arcgis.com/apps/Media/index.html?appid=3cafba99c07d43e3bef31b9e24552f28&center=-93.3957,34.1714&level=4</li>
+  <li><strong>CDC:</strong> https://www.cdc.gov/coronavirus/2019-ncov/index.html</li>
+  </ul>
+    <h3><strong> Non-Authoratative, but useful (used in this project)</h3>
+    <ul>
+   <li><strong>University of Virginia Dashboard: </strong>https://nssac.bii.virginia.edu/covid-19/dashboard/</li>
+      <li><strong>Harvard Public Line List:</strong> https://docs.google.com/spreadsheets/d/1itaohdPiAeniCXNlntNztZ_oRvjh0HsGuJXUJWET008/edit#gid=0 </li>
+    </ul>
