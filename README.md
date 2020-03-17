@@ -29,7 +29,6 @@ There are single Guam, USVI and Puerto Rico points, since individual counties ar
 I have moved Honolulu county to the island of Oahu for aesthetics.
 
 <h3> Authoratative Sources </h3>
-Please check out the following sources
 <ul>
   <li> https://napsg.maps.arcgis.com/apps/Media/index.html?appid=d627f416ce49405ca1fe4fe6ce520fed&center=-100.0438,35.7352&level=4</li>
   <li>https://ps-dbs.maps.arcgis.com/apps/Media/index.html?appid=3cafba99c07d43e3bef31b9e24552f28&center=-93.3957,34.1714&level=4</li>
