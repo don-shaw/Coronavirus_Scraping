@@ -1,5 +1,5 @@
 # Coronavirus County Scraper
-<img src="https://github.com/don-shaw/Coronavirus_Scraping/blob/master/Images/Mar172020.PNG" width="90%" height="90%">
+<img src="https://github.com/don-shaw/Coronavirus_Scraping/blob/master/Images/Mar172020.PNG" width="100%" height="50%">
 Make sure you have the following non-standard python dependencies:
 
 <ul>
