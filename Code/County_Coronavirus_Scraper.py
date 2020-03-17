@@ -59,12 +59,17 @@ def process_today(url, data_file, fieldnames):
                         if ':' in county_name:
                             county_name = county_name.replace(':', '')
                         full_county_name = county_name + ', ' + state
+                        if ' ,' in full_county_name:
+                            full_county_name = full_county_name.replace(' ,', ',')
                         if full_county_name.startswith(' '):
                             full_county_name = full_county_name.lstrip(' ')
                         # print('{0} has {1} cases'.format(Full_County_Name, Cases))
-                        if state in ['District of Columbia', 'US Virgin Islands', 'USVI', 'Puerto Rico', 'Guam']:
+                        if state in ['District of Columbia', 'Puerto Rico', 'Guam']:
                             cases = confirmed
                             full_county_name = state + ', ' + state
+                        if state in ['US Virgin Islands', 'USVI','US Virgin Island']:
+                            cases = confirmed
+                            full_county_name = 'US Virgin Islands, US Virgin Islands'
                         if full_county_name in ['Kauai County, Hawaii', 'Maui County, Hawaii',
                                                 'Kalawao County, Hawaii', 'Hawaii County, Hawaii']:
                             full_county_name = full_county_name.replace(' County,', ',')
