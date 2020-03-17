@@ -9,3 +9,58 @@
 2020-03-16 19:40:46,363 - INFO - Compacting fgdb
 2020-03-16 19:40:46,688 - INFO - ***** Completed time:  Monday March 16 07:40:46 PM 2020
 
+2020-03-17 08:03:05,158 - INFO - ***** Start time:  Tuesday March 17 08:03:05 AM 2020
+2020-03-17 08:03:05,159 - INFO - URL:  https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:03:05,159 - INFO - Output File:  C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:03:05,159 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-17 08:03:05,366 - ERROR - The latest file is not available
+2020-03-17 08:27:40,797 - INFO - ***** Start time:  Tuesday March 17 08:27:40 AM 2020
+2020-03-17 08:27:40,797 - INFO - URL:  https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:27:40,797 - INFO - Output File:  C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:27:40,797 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-17 08:27:41,020 - INFO - Successfully connected to https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:32:56,399 - INFO - ***** Start time:  Tuesday March 17 08:32:56 AM 2020
+2020-03-17 08:32:56,399 - INFO - URL:  https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:32:56,399 - INFO - Output File:  C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:32:56,399 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-17 08:32:56,617 - INFO - Successfully connected to https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:32:56,624 - INFO - Wrote 503 records to C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:32:56,625 - INFO - ***** Completed time:  Tuesday March 17 08:32:56 AM 2020
+
+2020-03-17 08:35:05,019 - INFO - ***** Start time:  Tuesday March 17 08:35:05 AM 2020
+2020-03-17 08:35:05,019 - INFO - URL:  https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:35:05,019 - INFO - Output File:  C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:35:05,019 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-17 08:35:05,256 - INFO - Successfully connected to https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:35:05,279 - INFO - Wrote 503 records to C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:35:05,280 - INFO - ***** Completed time:  Tuesday March 17 08:35:05 AM 2020
+
+2020-03-17 08:48:29,368 - INFO - ***** Start time:  Tuesday March 17 08:48:29 AM 2020
+2020-03-17 08:48:29,368 - INFO - URL:  https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:48:29,368 - INFO - Output File:  C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:48:29,368 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-17 08:48:47,174 - INFO - ***** Start time:  Tuesday March 17 08:48:47 AM 2020
+2020-03-17 08:48:47,174 - INFO - URL:  https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:48:47,174 - INFO - Output File:  C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:48:47,174 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-17 08:48:47,405 - INFO - Successfully connected to https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:48:47,425 - INFO - Wrote 503 records to C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:48:47,426 - INFO - ***** Completed time:  Tuesday March 17 08:48:47 AM 2020
+
+2020-03-17 08:50:33,069 - INFO - ***** Start time:  Tuesday March 17 08:50:33 AM 2020
+2020-03-17 08:50:33,070 - INFO - URL:  https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:50:33,070 - INFO - Output File:  C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:50:33,070 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-17 08:50:33,249 - INFO - Truncating C:/Data/coronavirus/Coronavirus.gdb/Coronavirus_Cases
+2020-03-17 08:50:35,591 - INFO - Appending records
+2020-03-17 08:52:18,064 - INFO - ***** Start time:  Tuesday March 17 08:52:18 AM 2020
+2020-03-17 08:52:18,064 - INFO - URL:  https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:52:18,064 - INFO - Output File:  C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:52:18,064 - INFO - FGDB:  C:/Data/coronavirus/Coronavirus.gdb
+2020-03-17 08:52:18,283 - INFO - Successfully connected to https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-03-17-2020.csv
+2020-03-17 08:52:18,291 - INFO - Wrote 503 records to C:/Data/coronavirus/03-17-2020.csv
+2020-03-17 08:52:18,470 - INFO - Truncating C:/Data/coronavirus/Coronavirus.gdb/Coronavirus_Cases
+2020-03-17 08:52:20,978 - INFO - Appending records
+2020-03-17 08:52:22,243 - INFO - Compacting fgdb
+2020-03-17 08:52:23,456 - INFO - ***** Completed time:  Tuesday March 17 08:52:23 AM 2020
+

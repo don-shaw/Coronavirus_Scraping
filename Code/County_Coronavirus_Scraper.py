@@ -19,6 +19,7 @@ import sys
 def process_today(url, data_file, fieldnames):
     with open(data_file, 'w', newline='') as csvfile:
         count = 0
+        harvard_url = 'https://docs.google.com/spreadsheets/d/1itaohdPiAeniCXNlntNztZ_oRvjh0HsGuJXUJWET008'
         coronavirus_file = csv.DictWriter(csvfile, fieldnames=fieldnames)
         coronavirus_file.writeheader()
         # Make the request
@@ -61,7 +62,7 @@ def process_today(url, data_file, fieldnames):
                         if full_county_name.startswith(' '):
                             full_county_name = full_county_name.lstrip(' ')
                         # print('{0} has {1} cases'.format(Full_County_Name, Cases))
-                        if state in ['District of Columbia', 'USVI', 'Puerto Rico', 'Guam']:
+                        if state in ['District of Columbia', 'US Virgin Islands', 'USVI', 'Puerto Rico', 'Guam']:
                             cases = confirmed
                             full_county_name = state + ', ' + state
                         if full_county_name in ['Kauai County, Hawaii', 'Maui County, Hawaii',
@@ -76,7 +77,8 @@ def process_today(url, data_file, fieldnames):
                                                        'County Name': str(county_name),
                                                        'Full County Name': str(full_county_name),
                                                        'Cases': int(case), 'Update Time': str(update_time),
-                                                       'Source': str(source)})
+                                                       'UVA URL': str(source),
+                                                       'Harvard URL': str(harvard_url)})
                             count += 1
             logging.info("Wrote {0} records to {1}".format(count, output_file))
         else:
@@ -90,15 +92,16 @@ def update_fgdb(fgdb, data_file, table):
     arcpy.TruncateTable_management(table)
     logging.info('Appending records')
 
-    arcpy.Append_management(data_file, table, "NO_TEST",
-                            r'State "State" true true false 8000 Text 0 0,First,#,'
-                            r'data_file,State,0,8000;Country "Country" true true false 8000 Text 0 0,'
-                            r'First,#,data_file,Country,0,8000;County_Name "County Name" true true false 50 Text 0 0,'
-                            r'First,#,data_file,County Name,0,8000;Full_County_Name "Full County Name" true true false'
-                            r' 8000 Text 0 0,First,#,data_file,Full County Name,0,8000;Cases "Cases" true true false'
-                            r' 4 Long 0 0,First,#,data_file,Cases,-1,-1;Update_Time "Update_Time" true true false 8 Date'
-                            r' 0 0,First,#,data_file,Update Time,-1,-1;Source "Source" true true false 255 Text 0 0,'
-                            r'First,#,data_file,Source,0,8000', '', '')
+    arcpy.Append_management(data_file, "Coronavirus_Cases", "NO_TEST",
+                            r'State "State" true true false 8000 Text 0 0,First,#,data_file,State,0,8000;'
+                            r'Country "Country" true true false 8000 Text 0 0,First,#,data_file,Country,0,8000;'
+                            r'County_Name "County Name" true true false 50 Text 0 0,First,#,data_file,County Name,0,8000;'
+                            r'Full_County_Name "Full County Name" true true false 8000 Text 0 0,First,#,data_file,Full County Name,0,8000;'
+                            r'Cases "Cases" true true false 4 Long 0 0,First,#,data_file,Cases,-1,-1;'
+                            r'Update_Time "Update_Time" true true false 8 Date 0 0,First,#,data_file,Update Time,-1,-1;'
+                            r'UVA_URL "Source" true true false 255 Text 0 0,First,#,data_file,UVA URL,0,8000;'
+                            r'Harvard_URL "Harvard_URL" true true false 255 Text 0 0,First,#,data_file,Harvard URL,0,8000',
+                            '', '')
     logging.info('Compacting fgdb')
     arcpy.Compact_management(fgdb)
 
@@ -121,7 +124,7 @@ if __name__ == '__main__':
     start_url_format = 'https://nssac.bii.virginia.edu/covid-19/dashboard/data/nssac-ncov-sd-'
     today_url = start_url_format + today + '.csv'
     output_file = 'C:/Data/coronavirus/' + today + '.csv'
-    fields = ['State', 'Country', 'County Name', 'Full County Name', 'Cases', 'Update Time', 'Source']
+    fields = ['State', 'Country', 'County Name', 'Full County Name', 'Cases', 'Update Time', 'UVA URL', 'Harvard URL']
     coronavirus_fgdb = "C:/Data/coronavirus/Coronavirus.gdb"
     coronavirus_table = "C:/Data/coronavirus/Coronavirus.gdb/Coronavirus_Cases"
 
