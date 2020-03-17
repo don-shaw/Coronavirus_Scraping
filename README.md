@@ -17,7 +17,6 @@ For more information, check out this stack overflow thread: https://stackoverflo
 <li> Unzip the Coronavirus.gdb to a location of your choice (Data Folder).</li>
 <li> Update the paths in County_Coronavirus_Scraper.py (__main__ function)</li>
 <li> Join the FGDB Feature Class County_pts to the Coronavirus_Case table.</li>
-<li> Publish to ArcGIS Server </li>
   
   </ol>
   
