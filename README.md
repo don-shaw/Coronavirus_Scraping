@@ -28,7 +28,7 @@ There is a single Guam, USVI and Puerto Rico point, since individual counties ar
 I have moved Honolulu county to the island of Oahu for aesthetics.
 
 <table>
-  <tr>Sources</tr><tr>Authoritative</tr></table>
+  <tr><td>Sources</td></tr><tr>Authoritative</tr></table>
       <h2> Sources</h2>
 <h3> Authoritative Sources </h3>
 <ul>
