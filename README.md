@@ -41,4 +41,4 @@ I have moved Honolulu county to the island of Oahu for aesthetics.
     </ul>
   
   <h2> Disclaimer</h2>
-  This repository is not intended to be an authoritative source from Esri (author's employer).
+  This repository is not an authoritative source from Esri (author's employer).
