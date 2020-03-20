@@ -15,10 +15,10 @@ For more information, check out this stack overflow thread: https://stackoverflo
 
 
 <ol>
-  <li> Install the certificate for https://nssac.bii.virginia.edu into your machine's certificate store</li>
-<li> Unzip the Coronavirus.gdb to a location of your choice (Data Folder).</li>
-<li> Update the paths in County_Coronavirus_Scraper.py (__main__ function)</li>
-<li> Join the FGDB Feature Class County_pts to the Coronavirus_Case table.</li>
+  <strong><li> Install the certificate for https://nssac.bii.virginia.edu into your machine's certificate store</li></strong>
+<strong><li> Unzip the Coronavirus.gdb to a location of your choice (Data Folder).</li></strong>
+<strong><li> Update the paths in County_Coronavirus_Scraper.py (__main__ function)</li></strong>  
+<strong><li> Join the FGDB Feature Class County_pts to the Coronavirus_Case table.</li></strong>
   
   </ol>
   
