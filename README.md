@@ -39,3 +39,6 @@ I have moved Honolulu county to the island of Oahu for aesthetics.
    <li><strong>University of Virginia Dashboard: </strong>https://nssac.bii.virginia.edu/covid-19/dashboard/</li>
       <li><strong>Harvard Public Line List:</strong> https://docs.google.com/spreadsheets/d/1itaohdPiAeniCXNlntNztZ_oRvjh0HsGuJXUJWET008/edit#gid=0 </li>
     </ul>
+  
+  <h2> Disclaimer</h2>
+  This repository is not an authoritative source from Esri (author's employer).
