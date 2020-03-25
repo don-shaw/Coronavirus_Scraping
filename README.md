@@ -17,7 +17,11 @@ For more information, check out this stack overflow thread: https://stackoverflo
 <ol>
   <li> Install the certificate for https://nssac.bii.virginia.edu into your machine's certificate store</li>
 <li> Unzip the Coronavirus.gdb to a location of your choice (Data Folder).</li>
-<li> Update the paths in County_Coronavirus_Scraper.py (__main__ function)</li>
+<li> Update the paths in config.ini</li>
+<ul><li>output_path=C:/Data/coronavirus/</li>
+<li>coronavirus_fgdb=C:/Data/coronavirus/Coronavirus.gdb</li>
+<li>coronavirus_table=C:/Data/coronavirus/Coronavirus.gdb/Coronavirus_Cases</li>
+</ul>
 <li> Join the FGDB Feature Class County_pts to the Coronavirus_Case table.</li>
   
   </ol>
